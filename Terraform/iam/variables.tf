@@ -27,7 +27,7 @@ variable "zone2" {
   default = "us-east1-b"
 }
 
-variable "rolezzz" {
+variable "roles" {
   type = list(string)
   default = [
     "roles/source.reader",

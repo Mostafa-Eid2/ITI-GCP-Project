@@ -1,16 +1,3 @@
-# resource "google_project_service" "compute" {
-#   service = "compute.googleapis.com"
-# }
-
-# resource "google_project_service" "container" {
-#   service = "container.googleapis.com"
-# }
-
-# resource "google_project_service" "enable_cloud_resource_manager_api" {
-#   service                    = "cloudresourcemanager.googleapis.com"
-#   disable_dependent_services = true
-# }
-
 resource "google_compute_network" "gcp-iti-network" {
   name                            = "gcp-iti-network"
   auto_create_subnetworks         = false
