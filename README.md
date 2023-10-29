@@ -195,13 +195,6 @@ To remotely access the GKE cluster from your local machine, follow these steps:
    delete pods mongodb-0-n mongo
    curl <EXTERNAL_IP>
    ```
-> [!NOTE]
-> There is a shell script called Check_Stateful.sh in the Scripts directory that automates these steps.
-> You can run this script by executing the following commands:
-> ```
-> source Check_Stateful.sh EXTERNAl_IP
-> ```
-> replace the ```EXTERNAl_IP``` with the ```EXTERNAl_IP``` from the  ```kubectl get svc -n node``` command 
 
 --------
 
